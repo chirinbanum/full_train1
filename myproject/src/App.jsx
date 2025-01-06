@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-// import NavBar from './components/funcomp/NavBar'
+import Navbar from './components/funcomp/NavBar';
 import About from './components/funcomp/About';
 import Contact from './components/funcomp/Contact';
 import Gallery from './components/funcomp/Gallery';
@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        {/* s */}
+        <Navbar />
         <Routes>
           {/* Define routes */}
           <Route path="/" element={<Home />} />
