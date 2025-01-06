@@ -1,6 +1,8 @@
-import './Navbar.css'
+import '../funcomp/css/NavBar.css'
 import { Link } from 'react-router-dom';
-var NavBar = () =>{
+
+
+const NavBar = () =>{
     return(
         <header>
             <nav>
