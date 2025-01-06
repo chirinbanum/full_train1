@@ -1,27 +1,43 @@
 ul {
     display: flex;
-    padding: 0;
-    margin: 0;
     justify-content: space-evenly;
-    list-style-type: none;
-    background-color: chocolate;
-    color: aliceblue;
-    padding: 10px;
-  }
-  
-  .link {
+    list-style: none; /* Simplified property */
+    margin: 0;
+    padding: 10px; /* Single padding declaration */
+    background-color: palevioletred;
+    color: skyblue;
+    border-radius: 8px; /* Added rounded corners for a polished look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional for better aesthetics */
+}
+
+.link {
     cursor: pointer;
-    padding: 3px;
-    border-radius: 10px;
+    padding: 6px 12px; /* Added even spacing for better design */
+    border-radius: 8px;
     text-decoration: none;
-    color: aliceblue;
-  }
-  
-  .link:hover {
-      background-color: white;
-      color: chocolate;
-    }
-  .button:hover{
-    background-color: #380bcb;
-    color: #1ed251;
-  }
+    color: black;
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+.link:hover {
+    background-color: white;
+    color: pink;
+    font-weight: bold; /* Optional for hover emphasis */
+}
+
+.button {
+    padding: 6px 12px;
+    border: 2px solid transparent; /* Creates a clean hover effect */
+    border-radius: 8px;
+    text-transform: uppercase; /* Optional for button consistency */
+    background-color: black;
+    color: orchid;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border 0.3s; /* Added smooth transition */
+}
+
+.button:hover {
+    background-color: rebeccapurple;
+    color: gray;
+    border: 2px solid #1ed251; /* Added a border change for hover */
+}
