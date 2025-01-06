@@ -14,7 +14,6 @@ import UseContext from './components/funcomp/UseContext';
 import UseMemo from './components/funcomp/UseMemo';
 import Images from './components/funcomp/Images';
 
-// Importing components from the "Authentication" folder
 import Signup from './components/Authentication/Signup';
 import Signin from './components/Authentication/Signin';
 
