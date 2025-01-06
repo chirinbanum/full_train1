@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 
 
-const Navbar = () =>{
+const NavPage = () =>{
     return(
         <header>
             <nav>
@@ -24,6 +24,6 @@ const Navbar = () =>{
         </header>
     )
 }
-export default Navbar;
+export default NavPage;
 
 
